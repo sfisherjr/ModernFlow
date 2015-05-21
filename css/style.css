@@ -1,0 +1,142 @@
+/* Reset HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+    top: 0; left: 0; 
+    bottom: 0; right: 0;
+}
+
+a, a:active, a:visited, a:hover, a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #607d8b;
+}
+
+.logo, .slogan {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.slogan {
+    color: #cfd8dc;
+}
+
+.navbar {
+    background-color: #607d8b;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 0 0;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 100px;
+    padding: 10px 25px 10px 25px;
+    background-color: #455a64;
+    -o-transition:color .2s ease-out, background 0.5s ease-in;
+    -ms-transition:color .2s ease-out, background 0.5s ease-in;
+    -moz-transition:color .2s ease-out, background 0.5s ease-in;
+    -webkit-transition:color .2s ease-out, background 0.5s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 0.5s ease-in;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #3E515A;
+}
+
+.active {
+    background-color: #3E515A !important;
+}
+
+.nav-first {
+    border-top-left-radius: 5px;
+}
+
+.nav-last {
+    border-top-right-radius: 5px;
+}
+
+.right-nav {
+    float: right;
+}
+
+.right-nav li {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 25px;
+}
+
+.left-content {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 65%;
+    background-color: #EEEEEE;
+    padding: 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.left-content hr {
+    border: 1px solid #607d8b;
+}
+
+.right-content {
+    float: right;
+    width: 20%;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.right-content h3 {
+    text-align: center;
+}
+
+.right-content ul {
+    padding-left: 25px;
+}
+
+.news-table {
+    width: 100%;
+}
+
+.button {
+    background-color: #455a64;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    -o-transition:color .2s ease-out, background 0.5s ease-in;
+    -ms-transition:color .2s ease-out, background 0.5s ease-in;
+    -moz-transition:color .2s ease-out, background 0.5s ease-in;
+    -webkit-transition:color .2s ease-out, background 0.5s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 0.5s ease-in;
+}
+
+.button:hover {
+    background-color: #3E515A;
+}
