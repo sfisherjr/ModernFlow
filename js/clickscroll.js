@@ -16,18 +16,6 @@ $("#nav_mods").click(function() {
     }, 2000);
 });
 
-$("#nav_asc").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#asc-page").offset().top
-    }, 2000);
-});
-
-$("#nav_social").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#social-page").offset().top
-    }, 2000);
-});
-
 $("#nav_contact").click(function() {
     $('html, body').animate({
         scrollTop: $("#final-page").offset().top
