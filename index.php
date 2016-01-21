@@ -33,20 +33,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="js/clickscroll.js"></script>
-    <script type="text/javascript">
-    $(window).scroll(function (event) {
-        var scroll = $(window).scrollTop();
-
-        if (scroll > 0)
-        {
-            $(".nav-container").addClass("scrolling");
-        }
-        else if (scroll <= 0)
-        {
-            $(".nav-container").removeClass("scrolling");
-        }
-    });
-    </script>
 </body>
 
 </html>
