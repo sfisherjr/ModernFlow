@@ -21,3 +21,16 @@ $("#nav_contact").click(function() {
         scrollTop: $("#final-page").offset().top
     }, 2000);
 });
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+
+    if (scroll > 0)
+    {
+        $(".nav-container").addClass("scrolling");
+    }
+    else if (scroll <= 0)
+    {
+        $(".nav-container").removeClass("scrolling");
+    }
+});
